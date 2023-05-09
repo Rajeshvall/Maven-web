@@ -4,12 +4,12 @@
 	
 	<groupId>com.mt</groupId>
 	<artifactId>maven-web-application</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
+	<version>0.0.1-SNAPSHOT</version>
 	
 	<name>maven-web-application</name>
 
-	<description>Maven Web Project for Java Programming Language</description>
+	<description>Maven Web Project for Java Project</description>
 
 	<organization>
 		<name>Mithun Technologies</name>
@@ -21,8 +21,9 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://15.206.149.150:9000/</sonar.host.url>
-                <sonar.login>squ_badf09d533a9a4efbf122b4164d9aec4cb2ed637</sonar.login>
+		<sonar.host.url>http://3.111.52.164:9000/</sonar.host.url>
+		<sonar.login>admin</sonar.login>
+		<sonar.password>Vallepu#5885</sonar.password> 
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
@@ -96,14 +97,14 @@
 	
 	    <repository>
 	      <id>nexus</id>
-	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://172.31.16.129:9980/mithuntechnologies/repository/citibank-release/</url>
+	      <name>Wallmart Release Repository </name>
+	      <url>http://13.234.33.42:8081/repository/wallmart-release//</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://172.31.16.129:9980/mithuntechnologies/repository/citibank-snapshot/</url>
+	      <name>Wallmart Snapshot Repository </name>
+	      <url>http://13.234.33.42:8081/repository/wallmart-snapshot//</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
